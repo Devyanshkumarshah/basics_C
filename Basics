@@ -19,8 +19,9 @@ operators
   Logical operator
   Bitwise operator
   Assignment operator
-  Ternary operator - conditional operator 
-    ex - condition ? expression1 : expression2.
+  Ternary operator - conditional operator   //we can narrow down the no of lines of code in if else statement.
+     condition ? doSomething if TRUE : doSomething if FALSE ;
+     ex - condition ? expression1 : expression2.
 }
 
 conditional statemnet 
