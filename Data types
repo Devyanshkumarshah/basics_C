@@ -1,0 +1,14 @@
+Data types in C programming 
+
+Data type                             size in bytes
+Char or signed char                        1
+unsigned char                              1
+int or signed int                          2
+unsigned int                               2
+short int or unsigned short int            2
+signed short int                           2
+Long int or signed long int                4
+unsigned long int                          4
+float                                      4
+double                                     8
+Long double                                10
