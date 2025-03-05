@@ -12,3 +12,39 @@ unsigned long int                          4
 float                                      4
 double                                     8
 Long double                                10
+
+
+Reserved Keywords
+
+auto   -   is a storage class specifier.
+int    -   is a datatype
+double   - datatype
+struct   -    a container that can hold various items. Each item within the container has a specific type, and you can access these items using their names.
+break   -   allows you to prematurely exit a loop (such as a for, while, or do-while loop) before its normal termination condition is met.
+else   -  conditional statement
+long    -   datatype
+switch   -  Conditional statement
+case  -  Inside the switch block, you use case labels to specify constant values.
+enum 
+register  -  The register keyword in C is a storage class specifier that suggests to the compiler that a variable should be stored in a CPU register.
+typedef    
+char    -  a datatype
+extern   -   extern variables typically have global scope, meaning they can be accessed from anywhere in the program.
+return  -  The return keyword is used to specify the value that the function will send back.
+union   -   The primary purpose of a union is to save memory. Instead of allocating separate memory for each member, like a struct does, a union allocates only enough memory to hold its largest member.
+continue  -   Its purpose is to skip the remaining part of the current iteration of the loop and proceed directly to the next iteration.
+for   -   loop
+signed
+void   -   When used as a function's return type, void indicates that the function does not return any value.
+do  -  loop
+if  -  conditional statement
+static   -   This means the function is only accessible within the source file in which it's defined.
+while   -   loop
+default
+goto  -  In situations with deeply nested loops, goto can provide a straightforward way to exit all loops at once.
+sizeof   -   used to find size of variable
+volatile   
+const
+float  -  datatype
+short  
+unsigned 
