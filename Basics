@@ -1,0 +1,29 @@
+Compilation  -  a computer program that translate C code to machine code is known as compilation
+{
+    hello.c --> c compiler --> a.exe(windows)  or  a.out(linux or mac).
+}
+
+Instruction
+{
+    Used to determine flow of program
+    a. Sequence control  -  They guide the flow of a program, ensuring that instructions are performed in a logical and predictable manner. In C, these instructions fall into a few primary categories:   
+    b. Decision control  -  They enable a program to execute specific blocks of code only when certain conditions are true.  example - if else statement
+    c. Loop control  -  for loop and while or do while loop
+    d. Case control  -  Switch statement 
+}
+
+operators 
+{
+  Arithementic operatoe 
+  Relational operator
+  Logical operator
+  Bitwise operator
+  Assignment operator
+  Ternary operator - conditional operator 
+    ex - condition ? expression1 : expression2.
+}
+
+conditional statemnet 
+{
+   
+}
