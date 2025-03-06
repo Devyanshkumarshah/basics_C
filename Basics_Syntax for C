@@ -1,0 +1,109 @@
+# SWITCH CASE
+
+#include<stdio.h>
+int main()
+{
+    int day; //1- monday, 2 - tuesday, 3 - wednesday, 4 - thrusday, 5 - Friday, 6 - saterday, 7 - sunday:
+
+    printf("Enter the Day you want to check = ");
+    scanf("%d", &day);
+
+    switch(day)
+    {
+        case 1:
+        printf("Monday");
+        break;
+
+        case 2:
+        printf("Tuesday");
+        break;
+
+        case 3:
+        printf("Wednesday");
+        break;
+
+        case 4:
+        printf("Thrusday");
+        break;
+
+        case 5:
+        printf("Friday");
+        break;
+
+        case 6:
+        printf("Saterday");
+        break;
+
+        case 7:
+        printf("Sunday");
+        break;
+   
+        default : printf("The number entered does not lie in between 1 to 7 !");
+    
+    }
+
+    
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#CONDITIONAL STATEMENT
+
+#include<stdio.h>
+int main()
+{
+    int age;
+    printf("enter the age : ");
+    scanf("%d", &age);
+
+    age >= 18 ? printf("adult \n") : printf("not adult \n") ;  //ternary contitional statement
+
+    return 0;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+# WHILE LOOP
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter the number till where you want to print the number = ");
+    scanf("%d", &n);
+
+    int i = 1;
+    while(i <= n)
+    {
+        printf("%d\n", i);
+        i++;
+    }
+    return 0;
+    
+    
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+doWhile loop
+
+
+#include<stdio.h>
+
+int main()
+{
+    int i = 1;
+    do{
+        printf("%d\n", i);
+        i++;
+    }
+
+    while(i<=5);
+
+    return 0;
+    
+}
