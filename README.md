@@ -13,6 +13,8 @@ stack
 trees
 searching 
 sorting 
+Dynamic memory allocation
+
 
 
 
