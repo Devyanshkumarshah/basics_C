@@ -8,5 +8,11 @@ pointers
 linked list
 array
 structure 
+queue
+stack
+trees
+searching 
+sorting 
+
 
 
