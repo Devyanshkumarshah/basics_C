@@ -1,0 +1,67 @@
+#include <stdio.h>
+void main()
+{
+    float input1 = 0, input2, answer = 0;
+    char opt;
+    char more_calculation;
+    int not_valid = 0;
+    int div_by_Zero_error = 0;
+
+    printf("Welcom to the calculator app\n");
+
+    do{
+        printf("Enter number 1: ");
+        scanf("%f", &input1);
+
+        printf("Enter number 2: ");
+        scanf("%f", &input2);
+        
+        div_by_Zero_error = 0;
+
+    
+    do {    
+        printf("Select the operation(+, -, *, /): ");
+        scanf("\n%c", &opt);
+
+        not_valid = 0;
+        switch(opt)
+        {
+            case '+': 
+                answer = input1 + input2; 
+                break;
+            case '-': 
+                answer = input1 - input2; 
+                break;
+            case '*': 
+                answer = input1 * input2; 
+                break;
+            case '/': 
+                if(input2 == 0){
+                    printf("Second number can't be Zero\n");
+                    div_by_Zero_error = 1;
+                }
+                answer = input1 / input2; 
+                break;
+            default: 
+                printf("Invalid input.\n");
+                not_valid = 1;
+        }
+            if(div_by_Zero_error == 1){
+                break;
+            }
+    }while(not_valid == 1);
+
+    if(div_by_Zero_error == 1){
+          continue;
+    }
+
+
+        printf("Result: %f %c %f = %f\n", input1, opt, input2, answer );
+        printf("Result: operation # %d: %f\n", opt, answer);
+        printf("Do another calculation(y/n)");
+        scanf("\n%c", &more_calculation);
+    }
+    while(more_calculation == 'y');
+     
+    printf("Thanku for using calculator program");
+}
